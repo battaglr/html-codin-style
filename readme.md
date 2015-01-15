@@ -28,7 +28,7 @@ way of doing it.
     <p>Some content.</p>
     <figure>
       <img src="photograph.jpg" />
-      <figcaption>A caption with a <a href="jhon.do">link</a>.</figcaption>
+      <figcaption>A caption with a <a href="foob.ar">link</a>.</figcaption>
     </figure>
   </div>
 </div>
