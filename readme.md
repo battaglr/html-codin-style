@@ -61,7 +61,7 @@ Use double quotes on attribute values.
 Elements with multiple attributes should be arranged across multiple lines:
 
 + Place the first attribute in the same line of the opening tag.
-+ Place the following attributess in a newline using one extra space
++ Place the following attributes in a newline using one extra space
   for indentation.
 
 ```html
