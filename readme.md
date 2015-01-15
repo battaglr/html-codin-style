@@ -79,8 +79,8 @@ Elements with multiple attributes should be arranged across multiple lines:
 Write attributes in the following order:
 
 1. Class: `class`.
-2. Data: `data-*`.
-3. Id: `id`.
+2. Id: `id`.
+3. Data: `data-*`.
 4. Name: `name`.
 5. Everything else.
 
