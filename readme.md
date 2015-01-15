@@ -66,9 +66,9 @@ Elements with multiple attributes should be arranged across multiple lines:
 
 ```html
 <div class="panel panel--collapsible"
+ id="attributes"
  data-component="collapsible-panel"
- data-animation="slide-down"
- id="attributes">
+ data-animation="slide-down">
   <div class="panel__heading"></div>
   <div class="panel__content"></div>
 </div>
@@ -85,7 +85,7 @@ Write attributes in the following order:
 5. Everything else.
 
 ````html
-<input class="value" data-custom="value" id="value" name="value" type="value" />
+<input class="value" id="value" data-custom="value" name="value" type="value" />
 ````
 
 ## License
