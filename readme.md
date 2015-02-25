@@ -6,21 +6,21 @@ way of doing it.
 
 ## Whitespace
 
-+ Use Unix newline character: `LF`.
-+ Use two spaces per indentation level.
-+ Remove all trailing whitespace.
-+ Always end files with a newline.
-+ Use only one blank line as a separator.
+- Use Unix newline character: `LF`.
+- Use two spaces per indentation level.
+- Remove all trailing whitespace.
+- Always end files with a newline.
+- Use only one blank line as a separator.
 
 _Psst, you may want to check my [presentation about whitespace]
 (http://speakerdeck.com/battaglr/why-you-should-care-about-whitespace)_.
 
 ## Elements
 
-+ Use lowercase for opening and closing tags.
-+ Use an additional level of indentation for each nested element.
-+ Always use closing tags.
-+ Always include a space followed by a trailing slash in self-closing elements.
+- Use lowercase for opening and closing tags.
+- Use an additional level of indentation for each nested element.
+- Always use closing tags.
+- Always include a space followed by a trailing slash in self-closing elements.
 
 ```html
 <div class="panel">
@@ -63,8 +63,8 @@ Use double quotes on attribute values.
 
 Elements with multiple attributes should be arranged across multiple lines:
 
-+ Place the first attribute in the same line of the opening tag.
-+ Place the following attributes in a newline using one extra space
+- Place the first attribute in the same line of the opening tag.
+- Place the following attributes in a newline using one extra space
   for indentation.
 
 ```html
