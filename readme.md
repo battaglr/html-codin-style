@@ -82,13 +82,13 @@ Elements with multiple attributes should be arranged across multiple lines:
 Write attributes in the following order:
 
 1. Class: `class`.
-2. Id: `id`.
-3. Data: `data-*`.
+2. Data: `data-*`.
+3. Id: `id`.
 4. Name: `name`.
 5. Everything else.
 
 ````html
-<input class="value" id="value" data-custom="value" name="value" type="value" />
+<input class="value" data-custom="value" id="value" name="value" type="value" />
 ````
 
 ## License
