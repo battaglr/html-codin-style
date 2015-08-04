@@ -25,7 +25,7 @@ _Psst, you may want to check my [presentation about whitespace]
 ```html
 <div class="panel">
   <div class="panel__heading">
-    <h2 class="panel__heading__title">The title</h2>
+    <h2 class="panel__title">The title</h2>
   </div>
   <div class="panel__content">
     <p>Some content.</p>
