@@ -25,13 +25,15 @@ _Psst, you may want to check my [presentation about whitespace]
 ```html
 <div class="panel">
   <div class="panel__heading">
-    <h2 class="panel__title">The title</h2>
+    <h2 class="panel__title"> ... </h2>
   </div>
   <div class="panel__content">
-    <p>Some content.</p>
+    <p> ... </p>
     <figure>
       <img src="photograph.jpg" />
-      <figcaption>A caption with a <a href="foob.ar">link</a>.</figcaption>
+      <figcaption>
+        ... <a href="foob.ar"> ... </a>
+      </figcaption>
     </figure>
   </div>
 </div>
@@ -42,23 +44,32 @@ _Psst, you may want to check my [presentation about whitespace]
 Use lowercase for attribute names.
 
 ```html
+<!-- DON'T -->
+<input data-fooBar="value" />
+
+<!-- DO -->
 <input data-foo-bar="value" />
-<input data-fooBar="value" /> <!-- Don't! -->
 ```
 
 Use valueless boolean attributes.
 
 ```html
+<!-- DON'T -->
+<input type="checkbox" checked="checked" />
+
+<!-- DO -->
 <input type="checkbox" checked />
-<input type="checkbox" checked="checked" /> <!-- Don't! -->
 ```
 
 Use double quotes on attribute values.
 
 ```html
+<!-- DON'T -->
+<input type='text' />
+<input type=text />
+
+<!-- DO -->
 <input type="text" />
-<input type='text' /> <!-- Don't! -->
-<input type=text /> <!-- Don't! -->
 ```
 
 Elements with multiple attributes should be arranged across multiple lines:
@@ -72,8 +83,8 @@ Elements with multiple attributes should be arranged across multiple lines:
  id="attributes"
  data-component="collapsible-panel"
  data-animation="slide-down">
-  <div class="panel__heading"></div>
-  <div class="panel__content"></div>
+  <div class="panel__heading"> ... </div>
+  <div class="panel__content"> ... </div>
 </div>
 ```
 
